@@ -1,0 +1,10 @@
+# python_code
+import random
+l = []
+for i in range(7):
+    random_num = random.randint(1,312)
+    l.append(random_num)
+l.sort()
+l.reverse()
+l.pop(2)
+print(l)
