@@ -1,0 +1,23 @@
+class Hello:
+    def king(self):
+        return f"name is {self.name}. age is {self.age}. skills is = {self.skills}"
+mayank = Hello()
+mohit =  Hello()
+
+
+mayank.name = "sahu ji"
+mayank.age = 21
+mayank.skills = "python" ,"java"
+
+
+
+mohit.name = "chhote nawab"
+mohit.age = 20
+mohit.skills = "patti juaa" , "gaming" , " accting"
+
+
+print(mayank.king())       #name is sahu ji. age is 21. skills is = ('python', 'java')
+print(mohit.king())        #name is chhote nawab. age is 20. skills is = ('patti juaa', 'gaming', ' accting')
+print(mayank.age)          # 21
+print(mohit.age)           #20
+
