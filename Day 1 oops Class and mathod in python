@@ -1,0 +1,10 @@
+class Hello:
+    a ="hellobhai"
+mayank = Hello()
+mohit =  Hello()
+
+
+mayank.name = "sahu ji"
+mohit.name = "chhote nawab"
+a = 93
+print(mayank.name ,Hello.a)
