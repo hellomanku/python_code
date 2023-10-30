@@ -1,0 +1,6 @@
+n = int(input("Enter A Num :- "))
+m = int(input("Enter a secund Num :- "))
+for i in range(n, m+1):
+        for j in range(1,11):
+                print(i*j)
+        print("-----------------")
